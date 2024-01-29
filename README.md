@@ -51,12 +51,12 @@ Iris-virginica     50
 I split the dataset into training and validation sets (80% training, 20% validation) and evaluated six different classification algorithms using stratified k-fold cross-validation with 10 folds. The evaluated algorithms are Logistic Regression (LR), Linear Discriminant Analysis (LDA), K-Nearest Neighbors (KNN), Decision Tree (CART), Gaussian Naive Bayes (NB), and Support Vector Machine (SVM). The accuracy scores of the models range from approximately 0.94 to 0.98, indicating high performance on the training data. SVM achieved the highest accuracy of approximately 0.98, followed by LDA with approximately 0.98. The boxplot visualization compares the accuracy distributions of the different algorithms.
 
 ### Data
-~LR: 0.941667 (0.065085)
-~LDA: 0.975000 (0.038188)
-~KNN: 0.958333 (0.041667)
-~CART: 0.950000 (0.040825)
-~NB: 0.950000 (0.055277)
-~SVM: 0.983333 (0.033333)
+    LR: 0.941667 (0.065085)
+    LDA: 0.975000 (0.038188)
+    KNN: 0.958333 (0.041667)
+    CART: 0.950000 (0.040825)
+    NB: 0.950000 (0.055277)
+    SVM: 0.983333 (0.033333)
 
 ![Model Comparison](Figure_3.png)
 
@@ -67,10 +67,10 @@ I selected the SVM algorithm as the final model and made predictions on the vali
 ### Data
                  precision    recall  f1-score   support
 
-~    Iris-setosa       1.00      1.00      1.00        11
-~    Iris-versicolor       1.00      0.92      0.96        13
-~    Iris-virginica       0.86      1.00      0.92         6
+    Iris-setosa       1.00      1.00      1.00        11
+    Iris-versicolor       1.00      0.92      0.96        13
+    Iris-virginica       0.86      1.00      0.92         6
 
-     ~  accuracy                           0.97        30
-    ~  macro avg       0.95      0.97      0.96        30
-   ~weighted avg       0.97      0.97      0.97        30
+       accuracy                           0.97        30
+      macro avg       0.95      0.97      0.96        30
+    weighted avg       0.97      0.97      0.97        30
